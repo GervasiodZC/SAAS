@@ -1,0 +1,15 @@
+.encabezado{
+    background-color: rgb(90, 149, 174);
+    text-align: center;
+    padding: 50px;
+    h1 {
+        color:rgb(230, 48, 48);
+        font-weight: normal;
+        text-align: center;
+        text-decoration: underline;
+        font-family: 'Raleway', sans-serif;
+    }
+    .foto{
+        @include picture_size (250px)
+    }
+}

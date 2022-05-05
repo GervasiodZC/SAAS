@@ -1,0 +1,9 @@
+*{
+    padding:20;
+}
+@mixin picture_size ($width) {
+    width: $width
+}
+@import "footer";
+@import "header";
+@import "main";
